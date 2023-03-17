@@ -1,0 +1,146 @@
+#header{
+    background-color: aqua;
+    height: 60px;
+}
+
+#navbarSupportedContent .nav-link{
+    color:#000000;
+    font-size: 1.5rem;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background-color: bisque;
+    background-size:cover;
+    position:relative;
+
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: green;
+}
+
+/* spacing on all sections */
+
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+#services{
+    background-color: bisque;
+    padding: 10px;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* portfolio */
+#portfolio{
+    padding: 10px;  
+}
+
+/* class work */
+.work{
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    border: 1px solid #c0bbbb;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+/* class project inkinolive */
+.project_inkino button{
+   padding: 5px 8px;
+   border-radius: 10px;
+   color: white;
+   background-color: green;
+   border: none;
+}
+
+.work:hover{
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+/* section contact */
+#contact{
+    background-color: bisque;
+    padding: 10px;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #fff;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+    padding: 10px;
+}
+
+/* display image when mouse pass to my name */
+.img_ceo{
+    display: none;
+}
+
+.ceo:hover{
+    cursor: pointer;
+}
+
+.ceo:hover + .img_ceo{
+    display: block;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* copyright */
+
+.copyright{
+    color: white;
+}
